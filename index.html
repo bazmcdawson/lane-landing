@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lane Rettig</title>
+  <meta name="description" content="Lane Rettig — software engineer, founder, and advocate for humanistic AI." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafafa;
+      --text: #111;
+      --muted: #555;
+      --accent: #1a1a1a;
+      --link: #0066cc;
+      --link-hover: #004499;
+      --border: #e0e0e0;
+      --max: 640px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 80px 24px 120px;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+
+    .tagline {
+      font-size: 1.05rem;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    section {
+      margin-bottom: 44px;
+    }
+
+    p {
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    h2 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+    }
+
+    .links a {
+      font-size: 0.9rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .links a:hover { color: var(--accent); text-decoration: none; }
+
+    .work-list {
+      list-style: none;
+    }
+
+    .work-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+    }
+
+    .work-list li:first-child { border-top: 1px solid var(--border); }
+
+    .work-title { font-size: 0.95rem; font-weight: 500; }
+    .work-meta { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+
+    .writing-list {
+      list-style: none;
+    }
+
+    .writing-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .writing-list li:first-child { border-top: 1px solid var(--border); }
+
+    .writing-list a { font-size: 0.95rem; }
+
+    footer {
+      margin-top: 64px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <h1>Lane Rettig</h1>
+      <p class="tagline">Engineer, founder, and advocate for humanistic software.</p>
+    </header>
+
+    <section>
+      <p>
+        I've spent the past decade building at every layer of the stack — protocol
+        research, distributed systems, developer tooling, and product — mostly in the
+        crypto and open-source world. Before that, I cofounded and ran a healthcare
+        technology company. I'm an Ethereum core alumni and spent several years as a
+        core developer at Spacemesh.
+      </p>
+      <p>
+        My rarest skill is making deeply complex technical systems legible to everyday
+        people. I've done this on stage at conferences around the world, in writing,
+        and in the products I've built. Software should be humane. That's been my
+        through-line, and it's what draws me to AI.
+      </p>
+      <p>
+        I'm currently open to opportunities in AI — particularly roles where technical
+        depth and clear communication both matter.
+      </p>
+    </section>
+
+    <section>
+      <h2>Work</h2>
+      <ul class="work-list">
+        <li>
+          <span class="work-title">Founder &amp; CEO — <a href="https://khorus.vercel.app">Clawford / Khorus</a></span>
+          <span class="work-meta">2024–present</span>
+        </li>
+        <li>
+          <span class="work-title">Head of Research (AI × Governance) — <a href="https://near.org">NEAR Foundation</a></span>
+          <span class="work-meta">2025</span>
+        </li>
+        <li>
+          <span class="work-title">Core Developer — <a href="https://spacemesh.io">Spacemesh</a></span>
+          <span class="work-meta">2019–2024</span>
+        </li>
+        <li>
+          <span class="work-title">Core Developer — <a href="https://ethereum.org">Ethereum</a></span>
+          <span class="work-meta">2017–2019</span>
+        </li>
+        <li>
+          <span class="work-title">Cofounder &amp; CEO — [Healthcare startup name]</span>
+          <span class="work-meta">[Years] · exited</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Writing</h2>
+      <ul class="writing-list">
+        <li><a href="https://www.applescotch.com">Applescotch</a> — personal blog</li>
+        <li><a href="https://rettig.substack.com">Substack</a> — longer essays</li>
+        <li><a href="https://www.etherean.org">Etherean.org</a> — blockchain &amp; open systems</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Find me</h2>
+      <div class="links">
+        <a href="https://github.com/lrettig">GitHub</a>
+        <a href="https://x.com/lrettig">X / Twitter</a>
+        <a href="https://www.linkedin.com/in/lane-rettig-32904b227">LinkedIn</a>
+      </div>
+    </section>
+
+    <footer>
+      Built simply, on purpose.
+    </footer>
+
+  </div>
+</body>
+</html>
